@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
 # Miui camera
 $(call inherit-product, device/xiaomi/alioth-miuicamera/device.mk)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946736638489729.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946736638489729.xml

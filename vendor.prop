@@ -39,9 +39,6 @@ vendor.audio.feature.compr_voip.enable=false
 vendor.audio_hal.period_multiplier=3
 vendor.audio.offload.buffer.size.kb=32
 
-# Audio hardware
-ro.hardware.audio.primary=alioth
-
 # Audio - ACDB(Forte)
 persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 persist.vendor.audio.calfile1=/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb

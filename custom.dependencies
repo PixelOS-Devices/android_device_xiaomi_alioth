@@ -7,5 +7,14 @@
     "remote": "gitlab",
     "repository": "NoPrincessHere/proprietary_vendor_xiaomi_alioth",
     "target_path": "vendor/xiaomi/alioth"
+  },
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_alioth-miuicamera",
+    "target_path": "device/xiaomi/alioth-miuicamera"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_alioth-miuicamera",
+    "target_path": "vendor/xiaomi/alioth-miuicamera"
   }
 ]

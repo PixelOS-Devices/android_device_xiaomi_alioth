@@ -422,6 +422,9 @@ vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libdisplayfeature.so
 vendor/lib64/libdisplayfeatureservice.so
 
+# Dolby
+vendor/etc/dolby/dax-default.xml
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
 
